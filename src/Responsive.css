@@ -1,0 +1,993 @@
+@media (max-width:1200px) {
+
+/* Navbar */
+
+
+.main-menu_item {
+    font-size: 14px;
+}
+
+.nav_search__toggle > .search_icon {
+    font-size: 16px;
+}
+.nav-link-right > a {
+    font-size: 14px;
+}
+.nav-link-left > button {
+    font-size: 14px;
+} 
+.search_form {
+    position: absolute;
+    top: 11%;
+    height: 60px;
+    left: 0;
+    padding-left: 15%;
+    right: 34%;}
+/* ABOUT PAGE */
+
+.partner_main > h4,
+.user_main > h4 {
+    font-size: 28px;
+}
+.partner_img,
+.user_img {
+    width: 494px;
+    height: 380px;
+}
+
+.partner_description > p,
+.user_description > p {
+ font-size: 14px;
+ width: 100%;
+}
+/* GYM PAGE */
+
+.select_wrapper > .submit-btn > a {
+    font-size: 16px;
+}
+
+.price-hero__body{
+    padding: 15% 6% 10%;
+ }
+
+.price-hero__body > h1 {
+    font-size: 35px;
+}
+.price-hero__body > p {
+    font-size: 18px;
+    color: var(--primary-grey-hover);
+    padding-top: 1.5%;
+}
+
+    /* PRICE PAGE */
+
+    .price-box_wrapper .price-box_body .info {
+        font-size: 14px;
+    }
+    .price-box_wrapper .price-box_body .name {
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width:1160px) {
+     /* navbar */
+
+     .logo {
+        width: 110px;
+        margin-top:10px
+    }
+
+   .mobile-menu-icon {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 30px;
+}
+
+
+
+
+.nav-link-left {
+    visibility: hidden;
+}
+
+
+.nav-link-right {
+    display: none;
+}
+
+.navbar-search {
+    display: none;
+}
+.nav-links-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-light-grey);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all .5s ease-out;
+    width: 100%;
+    height: 100%;
+    padding: 50px 60px;
+}
+.main-menu_item {
+    font-size: 26px;
+    letter-spacing: .5px;
+}
+.nav-link-left ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.search_form {
+    position: absolute;
+    top: 11%;
+    height: 60px;
+    left: 0;
+    padding-left: 15%;
+    right: 33%;
+}
+
+}
+
+@media (max-width:992px) {
+
+   
+    /* header */
+    .head-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 65%;
+        padding-left: 6%;
+        padding-bottom: 10%;
+    }
+    .head-text > h1 {
+        font-size: 35px;
+        line-height: 65px;
+    }
+   
+    .head-photo img {
+        padding-top: 30%;
+        width: 60%;
+        height: auto;
+    } 
+
+    /* partner */
+    .slide > img {
+        width: 100px;
+    }
+    .power img {
+        height: 100px;
+    }
+
+    /* advantages */
+   
+    .advantages > h2 {
+        font-size: 30px;
+    }
+   
+    .benefit > h4 {
+        font-size: 16px;
+    }
+    .adv-text p {
+        font-size: 14px;
+    }
+    .benefits {
+        margin-top: 1rem;
+    }
+
+    /* gyms */
+    .gyms {
+        width: 100%;
+        height: 100%;
+        padding: 0 6%;
+    }
+    .gym-container {
+         height: 350px;
+         width: 308px;
+     }
+     .gym-img img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+     }
+     .location, .feedback {
+        font-size: 14px;
+    }
+.gym-container {
+    max-width: 768px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+  
+
+/* Advantages */
+.adv-text > p {
+font-size: 12px;
+}
+
+.benefit > a {
+    font-size: 14px;
+}
+.benefit {
+    padding-right: 2%;
+}
+
+
+/* why us */
+
+.why-us > h2 {
+    font-size: 35px;
+}
+.why-us_description > p {
+    font-size: 14px;
+    padding: 3% 0;
+}
+.why-us_btn a {
+    font-size: 16px;
+    transition: .8s all;
+}
+.why-us_img .rectangle {
+    position: absolute;
+    left: 20%;
+    top: -8.7%;
+    width: 50%;
+    height: 350px;
+    background: linear-gradient(90deg, rgba(26, 41, 128, 0.45) 0%, rgba(38, 208, 206, 0.45) 100%);
+}
+/* testimonials */
+.testimonials-header > h2 {
+    font-size: 35px;
+}
+
+.card {
+    width: 300px;
+}
+.card > .details {
+    font-size: 14px;
+    line-height: 27px;
+    width: 95%;
+     padding: 18% 2% 5% 10%;
+     
+ }
+ .card > .quotation-mark > img {
+    width: 34px;
+ }
+ .user-name > span {
+    font-size: 14px;
+ }
+ /* discover */
+ .discover {
+    display: none;
+ }
+
+
+/* PACKAGE */
+
+.packages {
+    padding-bottom: 7%;
+}
+.price-table h2 {
+    font-size: 35px;
+    padding: 4% 0;
+}
+.package {
+    width: 210px;
+    height: 400px;
+}
+.package-title .name {
+    font-size: 16px;
+}
+.package-title .info {
+    font-size: 14px;
+    text-align: center;
+}
+.package-title {
+    width: 100%;
+    height: auto;
+}
+.details > p {
+    font-size: 13px;
+}
+.details:first-child {
+    padding-top: 7%;
+}
+
+
+
+/* PROMOTION */
+
+.promotion-main h2 {
+ 
+    font-size: 35px;
+ }
+ .promotion-main p {
+    width: 50%;
+    font-size: 16px;
+ }
+ .prm-buttons .app-store {
+    margin-right: 15px;
+    width: 120px;
+    transition: .5s all;
+}
+.prm-buttons .play-market {
+    width: 120px;
+    transition: .5s all;
+}
+
+/* footer */
+.sp-logo img {
+    width: 125px;
+}
+.sp-logo > p {
+    font-size: 12px;
+}
+.footer-title {
+    font-size: 14px;
+    padding: 3% 0;
+}
+.sport > a, .company > a, .contact > a {
+font-size: 12px;
+}
+.contact > .icons > i {
+    font-size: 20px;
+}
+.footer-content p {
+    font-size: 12px;
+}
+
+
+
+
+/* About section */
+
+.about-text > h1 {
+    font-size: 30px;
+}
+.about-text .txt-description {
+    width: 60%;
+}
+.partner_advantages h2, .user_advantages h2 {
+    font-size: 30px;
+}
+
+.partner_main > h4, .user_main > h4 {
+    font-size: 30px;
+    padding-bottom: 4%;
+    text-align: center;
+}
+.partner_body, .user_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.partner_description > p, .user_description > p {
+    width: 100%;
+    padding-top: 2%;
+}
+
+.partner_advantages h2, .user_advantages h2 {
+    padding-bottom: 1%;
+}
+
+.partner_main, .user_main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.img-container {
+    width: 100%;
+    height: 474px;
+}
+.partner_img,
+.user_img {
+    width: 494px;
+    height: 380px;
+}
+
+/* GYM PAGE */
+
+.select_wrapper > .submit-btn > a {
+    font-size: 14px;
+}
+
+.select .select-btn > span {
+    font-size: 14px; 
+}
+
+.options .option-item {
+  font-size: 14px;
+}
+
+.gyms_section_promotion > h2 {
+    font-size: 30px;
+}
+
+.gym_header {
+    gap: 20px;
+}
+.gym_header > h1 {
+    font-size: 35px;
+    padding: 15% 6% 0%;
+}
+.select_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.select .select-btn > i {
+    color: #999;
+    font-size: 12px;
+    padding: 0 5px;
+}
+/* PRICE PAGE */
+.price-box_wrapper .price-box_body .name {
+    font-size: 20px;
+}
+.price-box_title {
+    text-align: center;
+}
+.price_btn > a {
+    padding: 5px 20px;
+    font-size: 16px;
+}
+.price_number > p {
+    font-size: 30px;
+    color: var(--primary-white);
+}
+.price_number > i {
+    font-size: 26px;
+    color: var(--primary-white);
+}
+
+/* CONTACT PAGE */
+.contact_head > h2 {
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: .5px;
+}
+.contact__container .contact_title > h4 {
+    font-size: 25px;
+}
+.contact__container .contact_info .contact_flex > h4 {
+    font-size: 16px;
+}
+.contact__container .contact_info .contact_flex > p, .contact__container .contact_info .contact_flex > a {
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-top: 2%;
+}
+.contact__container .contact_info .contact_flex > i {
+    font-size: 30px;
+    color: var(--primary-red);
+    padding-bottom: 10%;
+}
+.contact__container {
+    padding: 3% 0;
+}
+.form-area {
+    padding: 5% 4%;
+    font-size: 12px;
+}
+.contact__form_hero form > button {
+    height: 50px;
+    font-size: 16px;
+}
+.contact__form_hero form > h3 {
+    font-size: 18px;
+}
+}
+
+
+@media (max-width:768px){
+/* Header */
+
+.head-photo {
+    display: none;
+}
+.head-text {
+    width: 100%;
+    padding-left: 6%;
+    padding-bottom: 10%;
+}
+/* Partners */
+.slide > img {
+    width: 80%;
+}
+
+/* advantages */
+.advantages > h2 {
+    padding-top: 3%;
+    width: 100%;
+}
+.benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 0 10%;
+    gap: 30px;
+}
+.benefit {
+    width: 309px;
+    border: 1px solid var(--primary-light-grey);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .5s all;
+    cursor: pointer;
+}
+.benefit:hover {
+  transform: scale(1.07);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.benefit > i {
+    font-size: 30px;
+    padding: 4% 0;
+}
+.adv-text {
+    padding: 2% 3%;
+}
+
+
+/* Gyms */
+
+.gym-heading > h2 {
+    font-size: 30px;
+}
+.gym-heading > button {
+    font-size: 14px;
+    padding: 1% 2.5%;
+}
+.gym-wrapper{
+    padding: 5% 0;
+    gap: 12px;
+}
+.gym-container {
+    width: 350px;
+    height: 360px;
+ }
+ /* Why us */
+ .why-us_body {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+ }
+ .why-us > h2 {
+    font-size: 30px;
+}
+.why-us_text > h4 {
+    font-size: 18px;
+}
+.why-us_description {
+    width: 100%;
+}
+.why-us_description > p {
+    padding: 3% 0;
+}
+.why-us_img > img {
+    width: 100%;
+ }
+ .why-us_img {
+    padding-bottom: 10%;
+     position: relative;
+ }
+ .why-us_img .rectangle {
+     position: absolute;
+     left: 27%;
+     top: -4.7%;
+     width: 50%;
+     height: 100%;
+     background: linear-gradient(90deg, rgba(26, 41, 128, 0.45) 0%, rgba(38, 208, 206, 0.45) 100%);
+ }
+
+ /* Testimonials */
+
+ .testimonials-header > h2 {
+    font-size: 30px;
+}
+.testimonials-header {
+    padding: 10% 0 5%;
+}
+/* Price table */
+.price-table h2 {
+    font-size: 30px;
+}
+.packages {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.package {
+    width: 360px;
+    height: 400px;
+    margin: auto;
+}
+
+/* Testimonials */
+
+.promotion {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.promotion-main h2 {
+    font-size: 30px;
+    padding: 5% 0 2%;
+ }
+ .promotion-main p {
+    font-size: 16px;
+    width: 100%;
+}
+.promotion-video {
+    width: 100%;
+    height: 400px;
+ }
+
+ /* Footer */
+ .footer-body {
+    display: flex;
+ }
+ .sports, .sp-logo, .companies, .contact {
+    width: 50%;
+}
+.companies, .contact {
+    padding-top: 9%;
+}
+.contact > .icons > i {
+    padding: 4%;
+    font-size: 24px;
+    cursor: pointer;
+    transition: .4s all;
+}
+.footer-content p {
+    text-align: center;
+    font-size: 14px;
+    padding: 2% 0;
+}
+.footer-title {
+    font-size: 18px;
+    padding: 3% 0;
+}
+.sport > a, .company > a, .contact > a {
+  font-size: 16px;
+}
+.sp-logo > p {
+    font-size: 16px;
+}
+
+
+/* About Section */
+
+.about-text > h1 {
+    font-size: 28px;
+}
+.about-text .txt-description {
+    font-size: 14px;
+    width: 100%;
+}
+.partner_advantages h2, .user_advantages h2 {
+    font-size: 30px;
+}
+
+.partner_main > h4, .user_main > h4 {
+    font-size: 30px;
+    padding-bottom: 4%;
+    text-align: center;
+}
+.partner_body, .user_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.partner_description > p, .user_description > p {
+    width: 100%;
+    padding-top: 2%;
+}
+
+.partner_advantages h2, .user_advantages h2 {
+    padding: 10% 0;
+}
+
+.partner_main, .user_main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.img-container {
+    width: 100%;
+    height: 274px;
+}
+.partner_img,
+.user_img {
+    width: 394px;
+    height: 350px;
+}
+.about_section_partners > h2 {
+    font-size: 26px;
+}
+
+
+.counter_container {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    align-items: center;
+  }
+  .counter_box {
+    width: 260px;
+    height: 170px; }
+
+    /* GYM PAGE */
+
+    .gyms_section_promotion > h2 {
+        font-size: 22px;
+    }
+
+    .gym-heade >h2 {
+        font-size: 25px;
+    }
+    .gym_header > h1 {
+        font-size: 26px;
+        padding: 25% 6% 0%;
+    }
+    .select_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+    .select-group {
+        width: 100%;
+      }
+      .select_wrapper > .submit-btn {
+        height: 48px;
+        width: 50%;
+    }
+
+    /* PRICE PAGE */
+    .price-hero__body{
+        padding: 25% 6% 10%;
+     }
+
+    .price-hero__body > h1 {
+        font-size: 35px;
+    }
+    .price-box_title > h3 {
+        font-size: 20px;
+        padding: 2% 2%;
+    }
+    .price-box_title > p {
+        font-size: 15px;
+    }
+    .price-box_wrapper {
+        padding: 2% 0 6%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .price-box_wrapper .price-box_body {
+        width: 60%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .price-box_wrapper .price-box_body .name {
+        font-size: 24px;
+    }
+    .price-box_wrapper .price-box_body .info {
+        font-size: 16px;
+    }
+    .price_number > p {
+        font-size: 36px;
+    }
+    .price_number > i {
+        font-size: 30px;
+    }
+    .price_btn > a {
+        padding: 7px 30px;
+        font-size: 18px;
+    }
+    .table_head {
+        font-size: 16px;
+
+    }
+    .table_row .fa-xmark,
+    .table_row .fa-check {
+        font-size: 20px;
+    }
+    .feature_title {
+        font-size: 14px;
+    }
+
+    .faq-client_box > h4 {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding-bottom: 2%;
+        color: var(--primary-dark-blue);
+    }
+    .faq-client_box > p {
+        font-size: 14px;
+        width: 90%;
+        line-height: 32px;
+    }
+    .faq_boxes_top, 
+    .faq_boxes_bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .faq-client_box {
+        width: 100%;
+   }
+
+   /* contact Page */
+
+   .contact_head {
+    padding: 25% 6% 8%;
+}
+.contact_head > h2 {
+    font-size: 28px;
+}
+.contact__container .contact_info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.contact__container .contact_info .contact_flex > i {
+    font-size: 35px;
+    padding-bottom: 5%;
+}
+.contact__container .contact_info .contact_flex {
+    width: 60%;
+    padding: 4% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--primary-light-grey);
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .5s all;
+    
+}
+.contact__container .contact_info .contact_flex:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    transform: scale(1.1);
+}
+   .contact__form_hero form {
+    width: 80%; }
+    
+    .contact_img {
+        width: 80%;
+    }
+    
+.contact__form_hero {
+    padding: 8% 0 4%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+}
+
+@media (max-width:576px) {
+  /* Header */
+  .advantages > h2 {
+    width: 100%;
+    font-size: 22px;
+}
+.gym-heading > h2 {
+    font-size: 22px;
+    padding: 5% 0;
+}
+.why-us > h2 {
+    font-size: 24px;
+    padding: 5% 0;
+}
+.why-us_text > h4 {
+    font-size: 16px;
+}
+.testimonials-header > h2 {
+    font-size: 24px;
+    padding-bottom: 5%;
+}
+.price-table h2 {
+    font-size: 24px;
+    padding: 6% 0;
+}
+.promotion-main h2 {
+    font-size: 24px;
+    padding: 7% 0 2%;
+ }
+ .promotion-main p {
+    font-size: 14px;
+}
+
+.sp-logo {
+    width: 100%;
+}
+
+.sp-logo > p {
+    font-size: 14px;
+    color: var(--clr-grey);
+    padding: 7% 0 0;
+}
+.footer-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-content {
+    padding: 5% 0;
+}
+.footer-content p {
+    padding: 2% 0;
+    font-size: 12px;
+}
+.footer-content p > span {
+    font-size: 12px;
+}
+.mobile-menu-icon {
+    padding: 1%;
+    display: flex;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 30px;
+}
+/* gym */
+.select-btn {
+    padding: 3%;
+    background: var(--primary-white);
+}
+.partner_advantages h2, .user_advantages h2 {
+    font-size: 24px;
+}
+.partner_main > h4, .user_main > h4 {
+    font-size: 24px;
+    padding-bottom: 4%;
+    text-align: center;
+}
+.about_section_partners > h2 {
+    font-size: 22px;
+}
+.price-hero__body > h1 {
+    font-size: 24px;
+}
+.price-box_title > h3 {
+    font-size: 16px;
+    padding: 2% 2%;
+}
+.price-box_wrapper .price-box_body {
+    width: 80%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.price_number > p {
+    font-size: 32px;
+}
+.price_number > i {
+    font-size: 22px;
+    color: var(--primary-white);
+}
+}
